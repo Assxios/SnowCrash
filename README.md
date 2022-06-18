@@ -43,7 +43,7 @@ Therefore here are the following steps (**made for on-campus usage**):
 		<img src="files/adapter.png"/><br>
 		Now we just go back to the settings of our VM and head to the <code>Network</code> tab, we need to change the <code>Attached to</code> from <code>NAT</code> to <code>Host-Only Adapter</code> and select our newly created adapter from the <code>name</code> drop down menu, such as:<br>
 		<img src="files/network.png"/><br>
-		You should now be able to connect to your VM through SSH !</p>
+		You should now be able to connect to your VM through SSH ! <b>This is not the only way to do this just an example of what I did, do what works best for you !</b></p>
 </details>
 
 ## Tools
