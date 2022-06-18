@@ -18,7 +18,7 @@ d--x--x--x 1 root    users    340 Aug 30  2015 ../
 ```
 
 Still nothing, yet again here I spent a lot of time trying a lot of things, which I won't go into details, but we do know that password are stored in `/etc/passwd` and `/etc/shadow` files. So let's see what's in them:
-```bash
+```
 level01@SnowCrash:~$ cat /etc/shadow
 cat: /etc/shadow: Permission denied
 ```
