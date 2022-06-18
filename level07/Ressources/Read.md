@@ -2,7 +2,11 @@
 
 ## Hint
 
-Perhaps running `strings level07` will help you. You can also use `gdb` if that's your thing.
+Perhaps running this can help:
+```
+strings level07
+````
+You can also use `gdb` if that's your thing.
 
 ## Answer
 
