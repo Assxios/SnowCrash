@@ -43,12 +43,19 @@ level09@SnowCrash:~$ ./level09 0000000000000000000000000000000000000000000000000
 
 There appears to be a pattern in the output, the program seems to take each character of the first argument and adding its own index to it. Therefore we can reverse what the program does with a simple C program:
 ```C
+#include <unistd.h>
+
+void ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
+
 int main(int argc, char **argv)
 {
 	if (argc != 2) return (1);
 	size_t i = 0;
 	while (argv[1][i])
-    	ft_putchar(argv[1][i] - i++);
+    		ft_putchar(argv[1][i] - i++);
 	ft_putchar('\n');
 }
 ```
