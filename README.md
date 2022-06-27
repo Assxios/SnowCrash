@@ -32,7 +32,7 @@ Therefore here are the following steps (**made for on-campus usage**):
 		<img src="files/new.png"/><br>
 		For the memory size the recommended amount is way enough, the VM is extremely light don't bother giving it extra memory it won't use.<br>
 		For the hard disk choose the <code>Do not add a virtual hard disk</code> option.<br>
-		Now we need to mounth the ISO file to the VM we just created, click on the <code>Settings</code> of our VM and then head to the <code>Storage</code> tab. Under <code>Storage Devices</code> you should see a CD icon which say empty, select that and them head over to <code>Attributes</code>, once again click on the CD icon and select the <code>Choose a disk file</code> option such as:<br>
+		Now we need to mount the ISO file to the VM we just created, click on the <code>Settings</code> of our VM and then head to the <code>Storage</code> tab. Under <code>Storage Devices</code> you should see a CD icon which say empty, select that and them head over to <code>Attributes</code>, once again click on the CD icon and select the <code>Choose a disk file</code> option such as:<br>
 		<img src="files/storage.png"/><br>
 		Now simply choose the ISO file and Voila !</p>
 </details>
