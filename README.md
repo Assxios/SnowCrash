@@ -49,7 +49,7 @@ Therefore here are the following steps (**made for on-campus usage**):
 ## Tools
 
 We heavily recommend using the following tools / commands:
-- **GDB** *(Please take the time to learn how to use it, seriouly !)*
+- **GDB** *(Please take the time to learn how to use it, seriously !)*
 - **strings**
 - **Wireshark**
 - **curl**
